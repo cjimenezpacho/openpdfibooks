@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07030807188535ED00815EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07030806188535ED00815EE5 /* Foundation.framework */; };
+		07030809188535ED00815EE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07030808188535ED00815EE5 /* CoreGraphics.framework */; };
+		0703080B188535ED00815EE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703080A188535ED00815EE5 /* UIKit.framework */; };
+		07030811188535ED00815EE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0703080F188535ED00815EE5 /* InfoPlist.strings */; };
+		07030813188535ED00815EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07030812188535ED00815EE5 /* main.m */; };
+		07030817188535ED00815EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07030816188535ED00815EE5 /* AppDelegate.m */; };
+		0703081A188535ED00815EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07030818188535ED00815EE5 /* Main.storyboard */; };
+		0703081D188535ED00815EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0703081C188535ED00815EE5 /* ViewController.m */; };
+		0703081F188535ED00815EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0703081E188535ED00815EE5 /* Images.xcassets */; };
+		07030826188535EE00815EE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07030825188535EE00815EE5 /* XCTest.framework */; };
+		07030827188535EE00815EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07030806188535ED00815EE5 /* Foundation.framework */; };
+		07030828188535EE00815EE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703080A188535ED00815EE5 /* UIKit.framework */; };
+		07030830188535EE00815EE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0703082E188535EE00815EE5 /* InfoPlist.strings */; };
+		07030832188535EE00815EE5 /* iBooksPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07030831188535EE00815EE5 /* iBooksPDFTests.m */; };
+		0703083E1885387400815EE5 /* iPhoneintro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0703083D1885387400815EE5 /* iPhoneintro.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07030829188535EE00815EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070307FB188535EC00815EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07030802188535ED00815EE5;
+			remoteInfo = iBooksPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07030803188535ED00815EE5 /* iBooksPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBooksPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07030806188535ED00815EE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07030808188535ED00815EE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0703080A188535ED00815EE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0703080E188535ED00815EE5 /* iBooksPDF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBooksPDF-Info.plist"; sourceTree = "<group>"; };
+		07030810188535ED00815EE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07030812188535ED00815EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07030814188535ED00815EE5 /* iBooksPDF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBooksPDF-Prefix.pch"; sourceTree = "<group>"; };
+		07030815188535ED00815EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07030816188535ED00815EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07030819188535ED00815EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0703081B188535ED00815EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0703081C188535ED00815EE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0703081E188535ED00815EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07030824188535EE00815EE5 /* iBooksPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBooksPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07030825188535EE00815EE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0703082D188535EE00815EE5 /* iBooksPDFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBooksPDFTests-Info.plist"; sourceTree = "<group>"; };
+		0703082F188535EE00815EE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07030831188535EE00815EE5 /* iBooksPDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBooksPDFTests.m; sourceTree = "<group>"; };
+		0703083D1885387400815EE5 /* iPhoneintro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iPhoneintro.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07030800188535ED00815EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07030809188535ED00815EE5 /* CoreGraphics.framework in Frameworks */,
+				0703080B188535ED00815EE5 /* UIKit.framework in Frameworks */,
+				07030807188535ED00815EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07030821188535EE00815EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07030826188535EE00815EE5 /* XCTest.framework in Frameworks */,
+				07030828188535EE00815EE5 /* UIKit.framework in Frameworks */,
+				07030827188535EE00815EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070307FA188535EC00815EE5 = {
+			isa = PBXGroup;
+			children = (
+				0703083D1885387400815EE5 /* iPhoneintro.pdf */,
+				0703080C188535ED00815EE5 /* iBooksPDF */,
+				0703082B188535EE00815EE5 /* iBooksPDFTests */,
+				07030805188535ED00815EE5 /* Frameworks */,
+				07030804188535ED00815EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07030804188535ED00815EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07030803188535ED00815EE5 /* iBooksPDF.app */,
+				07030824188535EE00815EE5 /* iBooksPDFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07030805188535ED00815EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07030806188535ED00815EE5 /* Foundation.framework */,
+				07030808188535ED00815EE5 /* CoreGraphics.framework */,
+				0703080A188535ED00815EE5 /* UIKit.framework */,
+				07030825188535EE00815EE5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0703080C188535ED00815EE5 /* iBooksPDF */ = {
+			isa = PBXGroup;
+			children = (
+				07030815188535ED00815EE5 /* AppDelegate.h */,
+				07030816188535ED00815EE5 /* AppDelegate.m */,
+				07030818188535ED00815EE5 /* Main.storyboard */,
+				0703081B188535ED00815EE5 /* ViewController.h */,
+				0703081C188535ED00815EE5 /* ViewController.m */,
+				0703081E188535ED00815EE5 /* Images.xcassets */,
+				0703080D188535ED00815EE5 /* Supporting Files */,
+			);
+			path = iBooksPDF;
+			sourceTree = "<group>";
+		};
+		0703080D188535ED00815EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0703080E188535ED00815EE5 /* iBooksPDF-Info.plist */,
+				0703080F188535ED00815EE5 /* InfoPlist.strings */,
+				07030812188535ED00815EE5 /* main.m */,
+				07030814188535ED00815EE5 /* iBooksPDF-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0703082B188535EE00815EE5 /* iBooksPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				07030831188535EE00815EE5 /* iBooksPDFTests.m */,
+				0703082C188535EE00815EE5 /* Supporting Files */,
+			);
+			path = iBooksPDFTests;
+			sourceTree = "<group>";
+		};
+		0703082C188535EE00815EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0703082D188535EE00815EE5 /* iBooksPDFTests-Info.plist */,
+				0703082E188535EE00815EE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07030802188535ED00815EE5 /* iBooksPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07030835188535EE00815EE5 /* Build configuration list for PBXNativeTarget "iBooksPDF" */;
+			buildPhases = (
+				070307FF188535ED00815EE5 /* Sources */,
+				07030800188535ED00815EE5 /* Frameworks */,
+				07030801188535ED00815EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBooksPDF;
+			productName = iBooksPDF;
+			productReference = 07030803188535ED00815EE5 /* iBooksPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07030823188535EE00815EE5 /* iBooksPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07030838188535EE00815EE5 /* Build configuration list for PBXNativeTarget "iBooksPDFTests" */;
+			buildPhases = (
+				07030820188535EE00815EE5 /* Sources */,
+				07030821188535EE00815EE5 /* Frameworks */,
+				07030822188535EE00815EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0703082A188535EE00815EE5 /* PBXTargetDependency */,
+			);
+			name = iBooksPDFTests;
+			productName = iBooksPDFTests;
+			productReference = 07030824188535EE00815EE5 /* iBooksPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070307FB188535EC00815EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = obturecode;
+				TargetAttributes = {
+					07030823188535EE00815EE5 = {
+						TestTargetID = 07030802188535ED00815EE5;
+					};
+				};
+			};
+			buildConfigurationList = 070307FE188535ED00815EE5 /* Build configuration list for PBXProject "iBooksPDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070307FA188535EC00815EE5;
+			productRefGroup = 07030804188535ED00815EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07030802188535ED00815EE5 /* iBooksPDF */,
+				07030823188535EE00815EE5 /* iBooksPDFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07030801188535ED00815EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0703081F188535ED00815EE5 /* Images.xcassets in Resources */,
+				07030811188535ED00815EE5 /* InfoPlist.strings in Resources */,
+				0703081A188535ED00815EE5 /* Main.storyboard in Resources */,
+				0703083E1885387400815EE5 /* iPhoneintro.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07030822188535EE00815EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07030830188535EE00815EE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070307FF188535ED00815EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0703081D188535ED00815EE5 /* ViewController.m in Sources */,
+				07030817188535ED00815EE5 /* AppDelegate.m in Sources */,
+				07030813188535ED00815EE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07030820188535EE00815EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07030832188535EE00815EE5 /* iBooksPDFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0703082A188535EE00815EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07030802188535ED00815EE5 /* iBooksPDF */;
+			targetProxy = 07030829188535EE00815EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0703080F188535ED00815EE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07030810188535ED00815EE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07030818188535ED00815EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07030819188535ED00815EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0703082E188535EE00815EE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0703082F188535EE00815EE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07030833188535EE00815EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Alvarez Novoa (X5G7PK98A6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "BD25AD32-79A9-4739-87A0-B4B0CB95152C";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07030834188535EE00815EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "BD25AD32-79A9-4739-87A0-B4B0CB95152C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07030836188535EE00815EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Alvarez Novoa (X5G7PK98A6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBooksPDF/iBooksPDF-Prefix.pch";
+				INFOPLIST_FILE = "iBooksPDF/iBooksPDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BD25AD32-79A9-4739-87A0-B4B0CB95152C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07030837188535EE00815EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBooksPDF/iBooksPDF-Prefix.pch";
+				INFOPLIST_FILE = "iBooksPDF/iBooksPDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BD25AD32-79A9-4739-87A0-B4B0CB95152C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07030839188535EE00815EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBooksPDF.app/iBooksPDF";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBooksPDF/iBooksPDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iBooksPDFTests/iBooksPDFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0703083A188535EE00815EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBooksPDF.app/iBooksPDF";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBooksPDF/iBooksPDF-Prefix.pch";
+				INFOPLIST_FILE = "iBooksPDFTests/iBooksPDFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070307FE188535ED00815EE5 /* Build configuration list for PBXProject "iBooksPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07030833188535EE00815EE5 /* Debug */,
+				07030834188535EE00815EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07030835188535EE00815EE5 /* Build configuration list for PBXNativeTarget "iBooksPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07030836188535EE00815EE5 /* Debug */,
+				07030837188535EE00815EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07030838188535EE00815EE5 /* Build configuration list for PBXNativeTarget "iBooksPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07030839188535EE00815EE5 /* Debug */,
+				0703083A188535EE00815EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070307FB188535EC00815EE5 /* Project object */;
+}
